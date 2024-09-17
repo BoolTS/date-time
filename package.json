@@ -1,0 +1,37 @@
+{
+    "name": "@bool-ts/date-time",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BoolTS/date-time.git"
+    },
+    "author": "Trần Đức Tâm (Neo)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BoolTS/date-time/issues"
+    },
+    "homepage": "https://github.com/BoolTS/date-time#readme",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "bun-types": "^1.1.27",
+        "typescript": "^5.6.2",
+        "undici-types": "^5.26.5"
+    },
+    "keywords": [
+        "Time",
+        "Control",
+        "bool-ts"
+    ],
+    "types": "./dist/index.d.ts"
+}
